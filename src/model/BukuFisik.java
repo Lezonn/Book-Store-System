@@ -21,12 +21,4 @@ public class BukuFisik extends Buku {
 	public void setStok(int stok) {
 		this.stok = stok;
 	}
-	
-	public void addStok() {
-		this.stok++;
-	}
-	
-	public void addStok(int qty) {
-		this.stok += qty;
-	}
 }
